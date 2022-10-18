@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>Portafolio - Larry González</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>Larry González</h1>
+                <p>Desarrollador</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar...">
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">Todos</a>
+                <a href="#">Naturaleza</a>
+                <a href="#">Ciudades</a>
+                <a href="#">Personas</a>
+                <a href="#">Animales</a>
+            </div>
+        </header>
+
+        <section class="grid" id="grid">
+            <div class="item" 
+                data-categoria="ciudades" 
+                data-etiquetas="Ciudades autos calles"
+                data-descripcion="Esta es una imagen">
+                <div class="item-contenido">
+                    <img src="img/ciudad1.png" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                data-categoria="personas" 
+                data-etiquetas="Ciudades autos calles"
+                data-descripcion="Esta es una imagen">
+                <div class="item-contenido">
+                    <img src="img/persona1.png" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                data-categoria="personas" 
+                data-etiquetas="Ciudades autos calles"
+                data-descripcion="Esta es una imagen">
+                <div class="item-contenido">
+                    <img src="img/persona2.png" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                data-categoria="animales" 
+                data-etiquetas="Ciudades autos calles"
+                data-descripcion="Esta es una imagen">
+                <div class="item-contenido">
+                    <img src="img/animal1.png" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                data-categoria="animales" 
+                data-etiquetas="Ciudades autos calles"
+                data-descripcion="Esta es una imagen">
+                <div class="item-contenido">
+                    <img src="img/animal2.png" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                data-categoria="ciudades" 
+                data-etiquetas="Ciudades autos calles"
+                data-descripcion="Esta es una imagen">
+                <div class="item-contenido">
+                    <img src="img/ciudad2.png" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                data-categoria="naturaleza" 
+                data-etiquetas="Ciudades autos calles"
+                data-descripcion="Esta es una imagen">
+                <div class="item-contenido">
+                    <img src="img/naturaleza1.png" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                data-categoria="paisajes" 
+                data-etiquetas="Ciudades autos calles"
+                data-descripcion="Esta es una imagen">
+                <div class="item-contenido">
+                    <img src="img/paisaje2.png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
