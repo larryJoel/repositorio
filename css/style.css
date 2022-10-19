@@ -28,9 +28,10 @@ header .logo{
     margin-bottom: 40px;
 }
 
-header .logo p{
+header .logo p, h5{
     color: #9b9b9b;
 }
+
 
 header form{
     width: 100%;
